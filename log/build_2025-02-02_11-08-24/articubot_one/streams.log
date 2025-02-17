@@ -1,0 +1,58 @@
+[0.006s] Invoking command in '/home/sarath/rob_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sarath/milox_ws/install/milo_x_description:/opt/ros/humble /usr/bin/cmake /home/sarath/rob_ws/src/robot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sarath/rob_ws/install/articubot_one
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.176s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.243s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.349s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.386s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.402s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.452s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.453s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.454s] -- Added test 'lint_cmake' to check CMake code style
+[0.454s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.455s] -- Added test 'xmllint' to check XML markup files
+[0.455s] -- Configuring done
+[0.456s] -- Generating done
+[0.457s] -- Build files have been written to: /home/sarath/rob_ws/build/articubot_one
+[0.460s] Invoked command in '/home/sarath/rob_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sarath/milox_ws/install/milo_x_description:/opt/ros/humble /usr/bin/cmake /home/sarath/rob_ws/src/robot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sarath/rob_ws/install/articubot_one
+[0.461s] Invoking command in '/home/sarath/rob_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sarath/milox_ws/install/milo_x_description:/opt/ros/humble /usr/bin/cmake --build /home/sarath/rob_ws/build/articubot_one -- -j16 -l16
+[0.492s] Invoked command in '/home/sarath/rob_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sarath/milox_ws/install/milo_x_description:/opt/ros/humble /usr/bin/cmake --build /home/sarath/rob_ws/build/articubot_one -- -j16 -l16
+[0.502s] Invoking command in '/home/sarath/rob_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sarath/milox_ws/install/milo_x_description:/opt/ros/humble /usr/bin/cmake --install /home/sarath/rob_ws/build/articubot_one
+[0.507s] -- Install configuration: ""
+[0.507s] -- Execute custom install script
+[0.507s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[0.513s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.521s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[0.526s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[0.533s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[0.539s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[0.545s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.553s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[0.559s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.564s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[0.571s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[0.577s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.582s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.589s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.596s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.602s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[0.607s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.613s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[0.618s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[0.625s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.633s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.641s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/package.dsv
+[0.646s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.652s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.658s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.664s] -- Symlinking: /home/sarath/rob_ws/install/articubot_one/share/articubot_one/package.xml
+[0.673s] Invoked command in '/home/sarath/rob_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sarath/milox_ws/install/milo_x_description:/opt/ros/humble /usr/bin/cmake --install /home/sarath/rob_ws/build/articubot_one

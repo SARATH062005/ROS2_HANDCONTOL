@@ -1,0 +1,2 @@
+Invoking command in '/home/sarath/rob_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sarath/milox_ws/install/milo_x_description:/opt/ros/humble /usr/bin/cmake --build /home/sarath/rob_ws/build/articubot_one -- -j16 -l16
+Invoked command in '/home/sarath/rob_ws/build/articubot_one' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sarath/milox_ws/install/milo_x_description:/opt/ros/humble /usr/bin/cmake --build /home/sarath/rob_ws/build/articubot_one -- -j16 -l16

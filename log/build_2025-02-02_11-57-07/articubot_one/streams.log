@@ -1,0 +1,5 @@
+[0.007s] Invoking command in '/home/sarath/rob_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sarath/milox_ws/install/milo_x_description:/opt/ros/humble /usr/bin/cmake --build /home/sarath/rob_ws/build/articubot_one -- -j16 -l16
+[0.021s] [0mCMake Error: The source directory "/home/sarath/rob_ws/src/robot_one" does not exist.
+[0.021s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.021s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.023s] Invoked command in '/home/sarath/rob_ws/build/articubot_one' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sarath/milox_ws/install/milo_x_description:/opt/ros/humble /usr/bin/cmake --build /home/sarath/rob_ws/build/articubot_one -- -j16 -l16
